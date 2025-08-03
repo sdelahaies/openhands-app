@@ -1,0 +1,29 @@
+
+
+
+.navbar {
+  background-color: #333;
+  padding: 8px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 16px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.navbar li.active,
+.navbar li:hover {
+  background-color: #555;
+  border-radius: 4px;
+}
+
+
